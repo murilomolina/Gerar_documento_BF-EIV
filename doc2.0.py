@@ -113,12 +113,12 @@ while not fim_bf:
 
         
     elif cp > coeficiente_basico or cp > coeficiente_projeto:
-        resultado_bf = (f'RESULTADO OBTIDO:  {formatar_num(bf)};  CPC = {(cp):.2f}')
+        resultado_bf = f'RESULTADO OBTIDO:  {formatar_num(bf)};  CPC = {(cp):.2f}'
     elif cp < coeficiente_basico or coeficiente_projeto:
-        resultado_bf = (f'Resultado do CP menor que 2.5, Não é necessario pagar a ODC!; CPC = {(cp):.2f}')
+        resultado_bf = f'Resultado do CP menor que 2.5, Não é necessario pagar a ODC!; CPC = {(cp):.2f}'
     else:
-        print = ('\nERRO! Zona invalida!!\n')
-        fim_bf = False
+        print('\nERRO! Zona invalida!!\n')
+
 
     encerrar = input('\nPara REFAZER o calculo insira "R"\nPara CONFIRMAR o calculo digite "C"\n').lower()
     if encerrar == ('r'):
