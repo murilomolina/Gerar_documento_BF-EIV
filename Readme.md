@@ -1,4 +1,4 @@
-Script criado em Python afim de calcular e gerar um documento de Memorial de Calculos Basicos para OODC e EIV/RIT-TIPO I-Lei 9.924/16
+Script criado em Python afim de calcular e gerar um documento de Memorial de Calculos Basicos para OODC e EIV/RIT-TIPO I-Lei 9.924/16 Prefeitura de Santo André
 
 BF = Beneficio Financeiro
 
